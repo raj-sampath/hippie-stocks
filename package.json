@@ -1,6 +1,6 @@
 {
   "name": "hippie-stocks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Real Time light-weight API to get stock info from BSE and NSE",
   "main": "index.js",
   "scripts": {
