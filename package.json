@@ -1,0 +1,21 @@
+{
+  "name": "hippie-stocks",
+  "version": "1.0.0",
+  "description": "A Real Time light-weight API to get stock info from BSE and NSE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Indian",
+    "Stock",
+    "Exchange",
+    "BSE",
+    "NSE",
+    "Bombay",
+    "Stock",
+    "National"
+  ],
+  "author": "Shyam Raj Sampath",
+  "license": "ISC"
+}
