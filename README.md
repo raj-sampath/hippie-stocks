@@ -17,18 +17,19 @@ The package supports both callbacks and promises.
 
 ```js
 // Promise  
-nse('ITC').then((data) = console.log(data)).catch((e) = console.error(e))  
-bse('ITC').then((data) = console.log(data)).catch((e) = console.error(e))
+nse('ITC').then((data) => console.log(data)).catch((e) = console.error(e))  
+bse('ITC').then((data) => console.log(data)).catch((e) = console.error(e))
 
  // Callback  
-nse('ITC', (error, data) = {  
-if(error) console.log(error);  
-else console.log(data)})  
+nse('ITC', (err, data) => {
+    if(err) console.error(err)
+    else console.log(data)
+});
 
-bse('ITC', (error, data) = {  
-if(error) console.log(error);  
-else console.log(data)});
-
+bse('ITC', (err, data) => {
+    if(err) console.error(err)
+    else console.log(data)
+});
 
 // Usage in Async Blocks  
 let stockPrice = await nse('ITC');    
