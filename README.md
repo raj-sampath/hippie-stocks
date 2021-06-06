@@ -7,35 +7,33 @@
 ` npm install hippie-stocks`
 
 ## Usage
-`
-Installation  
+```js
+// Installation  
 const { nse, bse } = require('hippe-stocks')
-`
+```
+
 
 The package supports both callbacks and promises.
 
-`
+```js
 // Promise  
 nse('ITC').then((data) = console.log(data)).catch((e) = console.error(e))  
 bse('ITC').then((data) = console.log(data)).catch((e) = console.error(e))
-`
 
-`
  // Callback  
 nse('ITC', (error, data) = {  
 if(error) console.log(error);  
 else console.log(data)})  
-`
-`
+
 bse('ITC', (error, data) = {  
 if(error) console.log(error);  
 else console.log(data)});
-`
-`
+
+
 // Usage in Async Blocks  
 let stockPrice = await nse('ITC');    
 let stockPrice = await bse('ITC');  
-`
+```
 
 ## Response
 Apart from the current price a lot more info is present in the response. Listed below are few. The key names are self explanatory and easy understandable.
