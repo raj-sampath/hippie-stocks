@@ -1,6 +1,6 @@
 {
   "name": "hippie-stocks",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Real Time light-weight API to get stock info from BSE and NSE",
   "main": "index.js",
   "scripts": {
@@ -17,5 +17,9 @@
     "National"
   ],
   "author": "Shyam Raj Sampath",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raj-sampath/hippie-stocks"
+  },
   "license": "ISC"
 }
